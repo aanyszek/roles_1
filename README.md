@@ -2,16 +2,16 @@
 
 
 
-Instalation: 
+# Instalation: 
 
 
-add to "\composer.json":
+# add to "\composer.json":
    "psr-4": {
             "App\\": "app/",
             "Logobinder\\Roles\\": "packages/logobinder/roles/src/"
         }
 
-add to "\config\app.php":
+# add to "\config\app.php":
    'providers' => [
         ...
         Logobinder\Roles\RolesServiceProvider::class,
@@ -19,7 +19,7 @@ add to "\config\app.php":
    ],
 
 
-add to "\app\User.php":
+# add to "\app\User.php":
     ...
     use \Logobinder\Roles\RolesTrait;
     ...
