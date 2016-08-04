@@ -1,6 +1,7 @@
 {
     "name": "logobinder/roles",
     "description": "Simplest Roles",
+      "keywords": ["role","simple","laravel"],
     "authors": [
         {
             "name": "Artur Anyszek",
