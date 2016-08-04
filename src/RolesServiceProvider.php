@@ -1,6 +1,6 @@
 <?php
 
-namespace Bunta\Roles;
+namespace Logobinder\Roles;
 
 /**
  * 
