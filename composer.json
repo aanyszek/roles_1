@@ -1,7 +1,7 @@
 {
     "name": "logobinder/roles",
     "description": "Simplest Roles",
-    "keywords": ["role","simple","laravel"],
+    "keywords": ["role", "simple", "laravel"],
     "homepage": "https://github.com/logobinder/roles",
     "license": "MIT",
     "authors": [
@@ -14,7 +14,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-          
+            "Logobinder\\Roles\\": "src/"
         },
         "classmap": [
             "tests"
